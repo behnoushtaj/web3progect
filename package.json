@@ -1,0 +1,24 @@
+{
+  "name": "golestan",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scss": "node-sass -w public/scss/ -o public/css/ -r",
+    "xl": "node-sass -w public/scss/xl/ -o public/css/xl/ -r",
+    "lg": "node-sass -w public/scss/lg/ -o public/css/lg/ -r",
+    "mdm": "node-sass -w public/scss/mdm/ -o public/css/mdm/ -r",
+    "sm": "node-sass -w public/scss/sm/ -o public/css/sm/ -r",
+    "xsm": "node-sass -w public/scss/xsm/ -o public/css/xsm/ -r",
+    "server": "json-server -w db.json --port 30006"
+  },
+  "devDependencies": {
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
